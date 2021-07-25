@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "priority": 1,
+    "action": {
+      "type": "allow"
+    },
+    "condition": {
+      "domains": [
+        "pathofexile.fandom.com"
+      ],
+      "resourceTypes": [
+        "script"
+      ]
+    }
+  },
+  {
+    "id": 2,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "domains": [
+        "*"
+      ],
+      "resourceTypes": [
+        "script"
+      ]
+    }
+  }
+]
