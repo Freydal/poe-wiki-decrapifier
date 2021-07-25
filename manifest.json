@@ -1,0 +1,17 @@
+{
+  "name": "PoE Wiki Decrapifier",
+  "description": "Gonna remove the bad stuff expand and default search open if i can... for fun!",
+  "version": "1.0",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "matches": [
+        "https://pathofexile.fandom.com/*"
+      ],
+      "js": ["jquery.min.js", "background.js"]
+    }
+  ],
+  "host_permissions": [
+    "https://pathofexile.fandom.com/*"
+  ]
+}
